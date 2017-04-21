@@ -42,7 +42,7 @@ translate([0,0,0]) {
                                    rotational_steps=numsteps, 
                                    bezier_steps=beziersteps);
             rotate([0,-90,0]) {
-              translate([0,0,-55.5])
+              translate([0,0,-56.1])
                 rcylinder(15,15,4,1.5, $fn=numsteps);
               translate([0,0,-75])
                 difference() {
@@ -64,7 +64,7 @@ translate([0,0,0]) {
         translate([0,0,-4.1]) {
           cylinder(10,20,20);
         }
-        translate([0,0,5.9])
+        translate([0,0,5.89])
           cylinder(60,20,0);
       }
   }
