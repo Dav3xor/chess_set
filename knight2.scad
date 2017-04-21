@@ -148,7 +148,7 @@ translate([0,0,0]) {
           //cylinder(1,22,22);
           cylinder(10,20,20);
         }
-        translate([0,0,5.9])
+        translate([0,0,5.89])
           cylinder(60,20,0);
       }
     }
