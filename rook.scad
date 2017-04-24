@@ -36,13 +36,13 @@ translate([0,0,0]) {
                                     [15, 14,0], [38,12.5,0]],
                                    rotational_steps=numsteps, 
                                    bezier_steps=beziersteps);
-            translate([58,0,0])
+            translate([55,0,0])
               solid_rotated_bezier([[0,15,0], [5,15.5,0], 
-                                    [5.5,21,0], [8,17,0]],
+                                    [5.5,22,0], [12,18,0]],
                                    rotational_steps=numsteps, 
                                    bezier_steps=beziersteps);
             rotate([0,-90,0]) {
-              translate([0,0,-56.1])
+              translate([0,0,-52])
                 rcylinder(15,15,4,1.5, $fn=numsteps);
               translate([0,0,-75])
                 difference() {

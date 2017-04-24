@@ -52,7 +52,7 @@ translate([0,0,0]) {
           cylinder(10,20,20);
         }
         translate([0,0,5.89])
-          cylinder(40,20,0);
+          cylinder(25,20,0);
       }
   }
 }
